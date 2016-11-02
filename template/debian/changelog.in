@@ -1,0 +1,5 @@
+$cfg_prefix-$package-config (1) $cfg_distro; urgency=low
+
+  * Initial Release.
+
+ -- $DEBFULLNAME <$DEBEMAIL>  $(date -R)

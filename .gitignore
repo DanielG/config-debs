@@ -1,0 +1,11 @@
+/*.deb
+/*.udeb
+/*.dsc
+/*.changes
+/*.build
+/*.tar.*
+/archive/
+*-build-stamp
+*.log
+*.substvars
+debian/files

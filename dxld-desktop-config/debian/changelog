@@ -1,0 +1,47 @@
+dxld-desktop-config (8) configs; urgency=low
+
+  * Add xmonad
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Wed, 24 Dec 2014 23:54:35 +0100
+
+dxld-desktop-config (7) configs; urgency=low
+
+  * Remove tinc
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Wed, 24 Dec 2014 02:46:31 +0100
+
+dxld-desktop-config (6) configs; urgency=low
+
+  * Remove some broken stuff
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Wed, 24 Dec 2014 02:26:50 +0100
+
+dxld-desktop-config (5) configs; urgency=low
+
+  * Fix chromium dependency
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Sat, 17 May 2014 17:11:36 +0000
+
+dxld-desktop-config (4) configs; urgency=low
+
+  * Fix/add some dependencies
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Sat, 17 May 2014 17:08:45 +0000
+
+dxld-desktop-config (3) configs; urgency=low
+
+  * Bump
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Thu, 01 May 2014 23:15:25 +0200
+
+dxld-desktop-config (2) configs; urgency=low
+
+  * Fix some typos
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Thu, 01 May 2014 23:11:41 +0200
+
+dxld-desktop-config (1) configs; urgency=low
+
+  * Initial Release.
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Thu, 01 May 2014 20:39:17 +0200

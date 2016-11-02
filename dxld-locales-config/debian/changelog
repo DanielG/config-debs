@@ -1,0 +1,41 @@
+dxld-locales-config (7) configs; urgency=low
+
+  * Run #DEBHELPER# before locale-gen
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Fri, 31 Jan 2014 19:00:24 +0100
+
+dxld-locales-config (6) configs; urgency=low
+
+  * Have to generate locales before setting default
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Fri, 31 Jan 2014 18:24:51 +0100
+
+dxld-locales-config (5) configs; urgency=low
+
+  * Nop
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Thu, 30 Jan 2014 01:49:20 +0100
+
+dxld-locales-config (4) configs; urgency=low
+
+  * Run locale-gen in postinst
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Thu, 30 Jan 2014 01:40:29 +0100
+
+dxld-locales-config (3) configs; urgency=low
+
+  * Do divert properly
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Thu, 30 Jan 2014 01:39:05 +0100
+
+dxld-locales-config (2) configs; urgency=low
+
+  * Locale's postinst script seems to ignore preeseeded values, fix.
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Thu, 30 Jan 2014 01:35:02 +0100
+
+dxld-locales-config (1) configs; urgency=low
+
+  * Initial Release.
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Wed, 29 Jan 2014 22:08:09 +0100

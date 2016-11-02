@@ -1,0 +1,60 @@
+Source: dxld-desktop-config
+Section: config-pkgs
+Priority: important
+Maintainer: Daniel Gröber <dxld@darkboxed.org>
+Build-Depends: debhelper (>= 9.0.0), config-package-dev (>= 4.13)
+Standards-Version: 3.9.5
+
+Package: dxld-desktop-config
+Architecture: all
+Depends: ${misc:Depends},
+ dxld-locales-config,  dxld-tzdata-config, dxld-connman-config,
+# TODO: dxld-tinc-config,
+# common
+ zsh, zsh-doc, xsel,
+ less, screen, zile, picocom, pv, apg, wcalc, symlinks, mmv,
+ silversearcher-ag,
+# maths
+ maxima,
+# communication
+ irssi, mutt,
+ gnupg, pinentry-curses, paperkey,
+# syadmin
+ gdisk, hfsutils, hfsprogs, parted, gparted,
+ stun, lsof, iotop, gsasl, htop,
+ wireshark, tshark, tcpdump,
+ petit,
+ ipv6calc, ipcalc, dnsmasq, clusterssh, ethtool, iptables-persistent,
+ stow,
+# devel
+ build-essential, distcc, ccache,
+ cmake, autotools-dev, autoconf, automake,
+ dhex, radare2, gdb,
+ git, git-svn, magit, gitg, bzr, mercurial, subversion,
+ global,
+ ghc,
+ jq,
+# vm
+ qemu, kvm, lxc,
+# network
+ mtr, zenmap, nmap, iftop, w3m,
+# debian devel
+ git-buildpackage, sbuild, reprepro, faketime, ubuntu-dev-tools,
+# electronics
+# qucs,
+ kicad, gerbv,
+# cad
+ freecad, openscad, librecad,
+# desktop
+# TODO: emacs24-common-non-dfsg,
+ lightdm, xmonad, emacs24, emacs24-el, rxvt-unicode,
+ chromium, dmenu, xpra, feh, git-annex,
+# multimedia
+ vlc, eog, evince, inkscape, gimp, graphviz, mpd, pms, mpc,
+# audio
+ alsa-utils, pavucontrol,
+# yubikey
+# yubikey-personalization-gui, yubikey-personalization
+Description: Default configuration for servers
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}, pinentry-gtk2

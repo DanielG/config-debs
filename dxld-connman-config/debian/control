@@ -1,0 +1,13 @@
+Source: dxld-connman-config
+Section: net
+Priority: optional
+Maintainer: Daniel Gröber <dxld@darkboxed.org>
+Build-Depends: debhelper (>= 9.0.0), config-package-dev (>= 4.13)
+Standards-Version: 3.9.8
+
+Package: dxld-connman-config
+Architecture: all
+Depends: ${misc:Depends}, connman
+Description: A configuration package for connman
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}

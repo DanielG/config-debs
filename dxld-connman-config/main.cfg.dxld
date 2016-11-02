@@ -1,0 +1,7 @@
+[General]
+NetworkInterfaceBlacklist=lxcbr,br,vpn,virbr,vboxnet,vmnet,veth,docker,wlan1,eth1
+DefaultAutoConnectTechnologies=ethernet
+SingleConnectedTechnology=false
+PreferredTechnologies=ethernet,wifi
+AllowHostnameUpdates=false
+TetheringTechnologies=wifi,bluetooth,gadget,ethernet

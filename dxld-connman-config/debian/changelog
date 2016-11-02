@@ -1,0 +1,5 @@
+dxld-connman-config (1) configs; urgency=low
+
+  * Initial Release.
+
+ -- Daniel Gröber <dxld@darkboxed.org>  Fri, 08 Jul 2016 14:40:43 +0200
