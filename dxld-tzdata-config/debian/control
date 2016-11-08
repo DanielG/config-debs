@@ -1,0 +1,13 @@
+Source: dxld-tzdata-config
+Section: optional
+Priority: required
+Maintainer: Daniel Gröber <dxld@darkboxed.org>
+Build-Depends: debhelper (>= 9.0.0), config-package-dev (>= 4.13)
+Standards-Version: 3.9.5
+
+Package: dxld-tzdata-config
+Architecture: any
+Depends: ${misc:Depends}
+Description: A configuration package for tzdata
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
